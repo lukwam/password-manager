@@ -18,7 +18,7 @@ def main():
     body  = render_template(
         "index.html"
     )
-    return render_template(body)
+    return render_theme(body)
 
 
 if __name__ == '__main__':
